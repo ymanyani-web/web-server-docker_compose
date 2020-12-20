@@ -1,0 +1,347 @@
+body {
+    background: url(../img/alpha/background.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+        font-family: 'Open Sans', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*/////////////// FONT STYLES ////////////////////*/
+
+.nav-menu ul li:hover > a {
+    color: #18d26e;
+  }
+  
+h1.title-agile {
+    padding: 1em 0 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 2px;
+}
+h2 {
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+.content-w3ls ul li {
+    display: inline-block;
+}
+
+li.switch-agileits {
+    float: left;
+}
+
+ul.list-login li:nth-child(2) {
+    float: right;
+}
+
+
+
+
+
+.content-w3ls {
+    max-width: 500px;
+    margin: 5em auto;
+}
+
+.nav-menu ul li:hover > a {
+    color: #18d26e;
+  }
+  
+.content-bottom {
+    padding: 3em 4em;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 1px 1px 1px 0px;
+    margin: 0 1em;
+     box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+    -ms-box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+}
+/* ----------------info-------------------*/
+.info
+{
+    max-width: 700px;
+    max-height: 500px;
+    margin: 5em auto;
+}
+.info ul li {
+    display: inline-block;
+}
+.cadre {
+    padding: 3em 4em;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 1px 1px 1px 0px;
+    margin: 0 1em;
+     box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+    -ms-box-shadow: 12px 12px rgba(0, 0, 0, 0.6);
+}
+/*-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form .field-group {
+    background: transparent;
+    display: flex;
+    display: flex;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    margin: 0 0 12px 0;
+}
+
+form .field-group span {
+    flex: 1;
+    -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;         /* OLD - Firefox 19- */
+    width: 20%;               /* For old syntax, otherwise collapses. */
+    -webkit-flex: 1;          /* Chrome */
+    -ms-flex: 1;              /* IE 10 */
+    color: #252525;
+    font-size: 1.2em;
+    background: #fff;
+    text-align: center;
+    line-height: 49px;
+    border-width: 1px 1px 1px 1px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+ul.list-login {
+    margin: 1.5em 0;
+}
+
+form .field-group .wthree-field {
+    flex: 2 55%;
+    -webkit-box-flex:2 55%;     /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 2 55%;        /* OLD - Firefox 19- */
+    -webkit-flex: 2 55%;          /* Chrome */
+    -ms-flex: 2 55%;             /* IE 10 */
+}
+
+.wthree-field input[type="submit"] {
+    background: #03A9F4;
+    border: none;
+    color: #fff;
+    padding: 12px 15px;
+    text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.wthree-field input[type="submit"]:hover {
+    background: #222;
+    color: #fff;
+}
+
+.wthree-field input {
+    padding: 15px 15px 15px 0px;
+    font-size: 16px;
+        color:#333;
+    letter-spacing: 1px;
+    border: none;
+    border-width: 1px 1px 1px 1px;
+    background: #fff;
+    box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    outline: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+
+
+
+
+
+
+.msg
+{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    top: 70px;
+    margin: 5em auto;
+
+    font-size: 25px;
+}
+
+
+
+
+
+
+.test
+{
+    padding-left: 10px;;
+    margin-left: 100px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================================*/
+.abc{
+    margin: 0 auto;
+     width: 25em;
+
+}
+
+.post{
+border: 1px solid#2424ff;
+width: 450px;
+}
+
+
+/*===============security password=============================*/
+#message {
+    display:none;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    margin: 0 auto;
+        width: 30em;
+    }
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+    /* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✅";
+}
+    /* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "❌";
+}
+
+
+
+
+.del 
+{
+        background-color: #2424FF;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+}
+
+.pub 
+{
+        background-color: #2424FF;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        position:absolute;
+        bottom:0;
+        right:0;
+        margin-right: 5px;
+        margin-bottom: 25px;
+}
+.sidee
+{
+    position:absolute;
+    top : 0;
+    right:0;
+    margin-top: 100px;
+}
+
+.my_i
+{
+    position:absolute;
+    bottom : 0;
+    left:0;
+    margin-left: 5px;
+    margin-bottom: 25px;
+}
+
+.cam
+{
+    margin: 0 auto;
+
+     width: 25em;
+}
+.upl
+{
+    margin-top: 50px;
+}
+/*==========================forgt acnt==================*/
+
