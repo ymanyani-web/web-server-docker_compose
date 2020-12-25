@@ -1,3 +1,8 @@
+#INtallation docker docker-machine docker-compose
+install brew: curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
+brew update
+brew install docker docker-machine docker-compose
+
 # LAMP stack built with Docker Compose
 
 ![Landing Page](https://preview.ibb.co/gOTa0y/LAMP_STACK.png)
