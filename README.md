@@ -38,8 +38,8 @@ Clone this repository on your local computer and checkout the appropriate branch
 Run the `docker-compose up -d`.
 
 ```shell
-git clone https://github.com/sprintcube/docker-compose-lamp.git
-cd docker-compose-lamp/
+git clone https://github.com/ymanyani-web/web-server-docker_compose.git
+cd web-server-docker_compose/
 git fetch --all
 git checkout 7.4.x
 cp sample.env .env
