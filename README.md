@@ -5,6 +5,13 @@ brew update
 
 brew install docker docker-machine docker-compose
 
+docker-machine create web
+#web is the name of the virtual machine
+
+docker-machine env web
+
+eval $(docker-machine env web)
+
 # LAMP stack built with Docker Compose
 
 ![Landing Page](https://preview.ibb.co/gOTa0y/LAMP_STACK.png)
